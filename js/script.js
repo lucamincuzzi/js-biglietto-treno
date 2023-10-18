@@ -36,3 +36,7 @@ ticketPriceResult = ticketPrice.toFixed(2);
 console.log(ticketPriceResult, typeof ticketPriceResult);
 
 message = `il prezzo del tuo biglietto è di ${ticketPriceResult}€, buon viaggio!`;
+
+// Output
+
+document.getElementById("ticket-price-message").innerHTML = message;

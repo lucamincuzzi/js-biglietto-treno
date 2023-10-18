@@ -11,8 +11,8 @@ L'output del prezzo finale va messo in output in forma umana (con massimo due de
 ### Soluzione
 
 #### Raccolta dati
-1. Chiedere all'utente il numero di chilometri da percorrere, convertirlo in numero e verificare sia maggiore di 0;
-2. Chiedere all'utente l'età del passeggero, convertirla in numero e verificare sia un intero compreso tra 0 e 100;
+1. Chiedere all'utente il numero di chilometri da percorrere, convertirlo in un numero intero e verificare sia maggiore di 0;
+2. Chiedere all'utente l'età del passeggero, convertirla in un numero intero e verificare sia compreso tra 0 e 100;
 
 #### Logica del programma
 1. Calcolare il prezzo del biglietto moltiplicando i chilometri in input a 0.21;

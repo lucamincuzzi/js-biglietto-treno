@@ -24,7 +24,7 @@ dividere il prezzo del biglietto per 100 e moltiplicare per 80
 ALTRIMENTI SE è maggiore o uguale a 65
 dividere il prezzo del biglietto per 100 e moltiplicare per 60;
 3. Limitare le cifre decimali del prezzo del biglietto a due;
-4. Preparare il messaggio che comunica il prezzo del biglietto concatenandolo al simbolo €;
+4. Preparare il messaggio che comunica il prezzo del biglietto;
 
 #### Output
 Stampa del messaggio comunicante il prezzo del biglietto.

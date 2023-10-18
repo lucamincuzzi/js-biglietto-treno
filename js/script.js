@@ -1,7 +1,7 @@
 alert("Salve, gentile viaggiatore!");
 
 // Raccolta dati
-let kmNumber = parseInt(prompt("Quanti sono i km da percorrere"));
+let kmNumber = parseInt(prompt("Quanti sono i km da percorrere?"));
 if (kmNumber > 0) {
 
 }
@@ -10,12 +10,12 @@ else {
     kmNumber = null
 };
 console.log(kmNumber, typeof kmNumber);
-let travelerAge = parseInt(prompt("Qual è l'eta del passeggero?"));
+let travelerAge = parseInt(prompt("Quanti anni ha il passeggero?"));
 if (travelerAge > 0 && travelerAge < 100) {
 
 }
 else {
-    alert("Inserire un'età valida")
+    alert("Inserire un dato valido")
     travelerAge = null
 };
 console.log(travelerAge, typeof travelerAge);
